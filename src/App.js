@@ -6,6 +6,7 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     logger.info("This is info message");
+    logger.error("This is error message");
   }, []);
 
   return (
