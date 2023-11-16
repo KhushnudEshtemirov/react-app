@@ -1,11 +1,11 @@
-import log from "loglevel";
+import logger from "./logger";
 
 import "./App.css";
 import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    log.error("This is error message");
+    logger.info("This is info message");
   }, []);
 
   return (
