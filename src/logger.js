@@ -1,7 +1,7 @@
 import * as logger from "loglevel";
 
 if (process.env.NODE_ENV === "production") {
-  logger.setLevel("trace");
+  logger.setLevel("error");
 } else {
   logger.setLevel("trace");
 }
