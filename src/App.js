@@ -15,6 +15,13 @@ function App() {
   return (
     <div className="App">
       <h1>Khushnud</h1>
+      <button
+        onClick={() => {
+          throw new Error("Something is wrong!");
+        }}
+      >
+        Click
+      </button>
     </div>
   );
 }
