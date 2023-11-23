@@ -15,9 +15,10 @@ function App() {
   return (
     <div className="App">
       <h1>Khushnud</h1>
+      <button>New button</button>
       <button
         onClick={() => {
-          throw new Error("Something is wrong!");
+          throw new Error("This is new error.");
         }}
       >
         Click
