@@ -9,13 +9,7 @@ Sentry.init({
   dsn: "https://84531d25957155ee5697fb956fc98ef6@o4506262038052864.ingest.sentry.io/4506262061383680",
   integrations: [
     new Sentry.BrowserTracing({
-      routingInstrumentation: Sentry.reactRouterV6Instrumentation(
-        React.useEffect,
-        useLocation,
-        useNavigationType,
-        createRoutesFromChildren,
-        matchRoutes
-      ),
+      routingInstrumentation: Sentry.reactRouterV6Instrumentation(),
     }),
     new Sentry.Replay(),
   ],
