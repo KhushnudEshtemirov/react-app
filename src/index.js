@@ -17,7 +17,10 @@ Sentry.init({
 
   tracesSampleRate: 1.0,
 
-  tracePropagationTargets: ["localhost", /^https:\/\/yourserver\.io\/api/],
+  tracePropagationTargets: [
+    "localhost",
+    "https://react-app-green-psi.vercel.app",
+  ],
 
   replaysSessionSampleRate: 0.1,
   replaysOnErrorSampleRate: 1.0,

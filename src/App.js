@@ -18,7 +18,7 @@ function App() {
       <button>New button</button>
       <button
         onClick={() => {
-          throw new Error("This is new error.");
+          throw new Error("Khushnud");
         }}
       >
         Click
