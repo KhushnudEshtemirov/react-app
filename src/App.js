@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <h1>Khushnud</h1>
+      <p>New text</p>
       <button>New button</button>
       <button
         onClick={() => {
