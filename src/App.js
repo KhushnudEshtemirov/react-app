@@ -19,7 +19,7 @@ function App() {
       <button>New button</button>
       <button
         onClick={() => {
-          throw new Error("Khushnud");
+          throw new Error("Reinstall sentry package");
         }}
       >
         Click
