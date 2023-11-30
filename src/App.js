@@ -5,10 +5,10 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    logger.info("This is info message");
     logger.trace("This is trace message");
-    logger.warn("This is warn message");
+    logger.info("This is info message");
     logger.debug("This is debug message");
+    logger.warn("This is warn message");
     logger.error("This is error message");
   }, []);
 
@@ -19,7 +19,7 @@ function App() {
       <button>New button</button>
       <button
         onClick={() => {
-          throw new Error("Again new error");
+          throw new Error("Error occurred on line 8");
         }}
       >
         Click
