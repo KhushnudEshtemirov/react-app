@@ -5,9 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import initSentry from "./sentry";
 
-if (process.env.NODE_ENV === "development") {
-  initSentry();
-}
+initSentry();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
